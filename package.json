@@ -3,6 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
+		"eslint-config-airbnb": "^17.1.0",
 		"jest": "^23.6.0",
 		"react": "^16.8.6",
 		"react-dom": "^16.8.6",
@@ -10,13 +11,15 @@
 		"react-router": "^5.0.0",
 		"react-scripts": "2.1.8",
 		"redux": "^4.0.1",
-		"styled-components": "^4.2.0"
+		"styled-components": "^4.2.0",
+		"webpack-merge": "^4.2.1"
 	},
 	"scripts": {
-		"dev": "webpack --mode development",
-		"prod": "webpack --mode production",
+		"dev": "webpack --config webpack.config.dev.js",
+		"prod": "webpack --config webpack.config.prod.js",
 		"start": "webpack-dev-server",
-		"test": "jest --watchAll"
+		"test": "jest --watchAll",
+		"lint": "eslint ./src"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
@@ -34,6 +37,7 @@
 		"@babel/preset-react": "^7.0.0",
 		"babel-loader": "^8.0.2",
 		"css-loader": "^1.0.0",
+		"eslint-plugin-class-property": "^1.1.0",
 		"style-loader": "^0.23.0",
 		"webpack": "^4.19.1",
 		"webpack-cli": "^3.1.1",
