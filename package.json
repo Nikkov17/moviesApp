@@ -3,13 +3,21 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
+		"babel-core": "^7.0.0-bridge.0",
+		"babel-jest": "^23.4.2",
+		"babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+		"enzyme": "^3.9.0",
+		"enzyme-adapter-react-16": "^1.12.1",
 		"eslint-config-airbnb": "^17.1.0",
 		"jest": "^23.6.0",
+		"jest-css-modules-transform": "^2.1.1",
+		"prop-types": "^15.7.2",
 		"react": "^16.8.6",
 		"react-dom": "^16.8.6",
 		"react-redux": "^7.0.2",
 		"react-router": "^5.0.0",
 		"react-scripts": "2.1.8",
+		"react-test-renderer": "^16.8.6",
 		"redux": "^4.0.1",
 		"styled-components": "^4.2.0",
 		"webpack-merge": "^4.2.1"
@@ -18,11 +26,19 @@
 		"dev": "webpack --config webpack.config.dev.js",
 		"prod": "webpack --config webpack.config.prod.js",
 		"start": "webpack-dev-server",
-		"test": "jest --watchAll",
+		"test": "jest",
+		"testAndWatch": "jest --watchAll",
 		"lint": "eslint ./src"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
+	},
+	"jest": {
+		"transform": {
+			"^.+\\.jsx$": "babel-jest",
+			"^.+\\.js$": "babel-jest",
+			".+\\.(css|styl|less|sass|scss)$": "<rootDir>/node_modules/jest-css-modules-transform"
+		}
 	},
 	"browserslist": [
 		">0.2%",

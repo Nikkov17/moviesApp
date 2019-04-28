@@ -1,0 +1,751 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main snapshot check snaphot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Main
+    moviesList={
+      Array [
+        Object {
+          "description": "first movie description",
+          "id": 1,
+          "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
+          "title": "first movie",
+        },
+        Object {
+          "description": "second movie description",
+          "id": 2,
+          "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
+          "title": "second movie",
+        },
+        Object {
+          "description": "third movie description",
+          "id": 3,
+          "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
+          "title": "third movie",
+        },
+        Object {
+          "description": "fourth movie description",
+          "id": 4,
+          "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
+          "title": "fourth movie",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <ListCard
+          item={
+            Object {
+              "description": "first movie description",
+              "id": 1,
+              "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
+              "title": "first movie",
+            }
+          }
+        />,
+        <ListCard
+          item={
+            Object {
+              "description": "second movie description",
+              "id": 2,
+              "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
+              "title": "second movie",
+            }
+          }
+        />,
+        <ListCard
+          item={
+            Object {
+              "description": "third movie description",
+              "id": 3,
+              "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
+              "title": "third movie",
+            }
+          }
+        />,
+        <ListCard
+          item={
+            Object {
+              "description": "fourth movie description",
+              "id": 4,
+              "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
+              "title": "fourth movie",
+            }
+          }
+        />,
+      ],
+      "className": "results-list",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "class",
+        "props": Object {
+          "item": Object {
+            "description": "first movie description",
+            "id": 1,
+            "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
+            "title": "first movie",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "class",
+        "props": Object {
+          "item": Object {
+            "description": "second movie description",
+            "id": 2,
+            "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
+            "title": "second movie",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "class",
+        "props": Object {
+          "item": Object {
+            "description": "third movie description",
+            "id": 3,
+            "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
+            "title": "third movie",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "4",
+        "nodeType": "class",
+        "props": Object {
+          "item": Object {
+            "description": "fourth movie description",
+            "id": 4,
+            "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
+            "title": "fourth movie",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ListCard
+            item={
+              Object {
+                "description": "first movie description",
+                "id": 1,
+                "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
+                "title": "first movie",
+              }
+            }
+          />,
+          <ListCard
+            item={
+              Object {
+                "description": "second movie description",
+                "id": 2,
+                "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
+                "title": "second movie",
+              }
+            }
+          />,
+          <ListCard
+            item={
+              Object {
+                "description": "third movie description",
+                "id": 3,
+                "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
+                "title": "third movie",
+              }
+            }
+          />,
+          <ListCard
+            item={
+              Object {
+                "description": "fourth movie description",
+                "id": 4,
+                "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
+                "title": "fourth movie",
+              }
+            }
+          />,
+        ],
+        "className": "results-list",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "item": Object {
+              "description": "first movie description",
+              "id": 1,
+              "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
+              "title": "first movie",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "class",
+          "props": Object {
+            "item": Object {
+              "description": "second movie description",
+              "id": 2,
+              "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
+              "title": "second movie",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "class",
+          "props": Object {
+            "item": Object {
+              "description": "third movie description",
+              "id": 3,
+              "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
+              "title": "third movie",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "4",
+          "nodeType": "class",
+          "props": Object {
+            "item": Object {
+              "description": "fourth movie description",
+              "id": 4,
+              "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
+              "title": "fourth movie",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Main snapshot check snaphot 2`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Main />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": null,
+      "className": "results-list",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": null,
+        "className": "results-list",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Main snapshot check snaphot with props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Main
+    moviesList={
+      Array [
+        Object {
+          "description": "first movie description",
+          "id": 1,
+          "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
+          "title": "first movie",
+        },
+        Object {
+          "description": "second movie description",
+          "id": 2,
+          "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
+          "title": "second movie",
+        },
+        Object {
+          "description": "third movie description",
+          "id": 3,
+          "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
+          "title": "third movie",
+        },
+        Object {
+          "description": "fourth movie description",
+          "id": 4,
+          "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
+          "title": "fourth movie",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <ListCard
+          item={
+            Object {
+              "description": "first movie description",
+              "id": 1,
+              "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
+              "title": "first movie",
+            }
+          }
+        />,
+        <ListCard
+          item={
+            Object {
+              "description": "second movie description",
+              "id": 2,
+              "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
+              "title": "second movie",
+            }
+          }
+        />,
+        <ListCard
+          item={
+            Object {
+              "description": "third movie description",
+              "id": 3,
+              "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
+              "title": "third movie",
+            }
+          }
+        />,
+        <ListCard
+          item={
+            Object {
+              "description": "fourth movie description",
+              "id": 4,
+              "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
+              "title": "fourth movie",
+            }
+          }
+        />,
+      ],
+      "className": "results-list",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "class",
+        "props": Object {
+          "item": Object {
+            "description": "first movie description",
+            "id": 1,
+            "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
+            "title": "first movie",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "class",
+        "props": Object {
+          "item": Object {
+            "description": "second movie description",
+            "id": 2,
+            "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
+            "title": "second movie",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "class",
+        "props": Object {
+          "item": Object {
+            "description": "third movie description",
+            "id": 3,
+            "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
+            "title": "third movie",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "4",
+        "nodeType": "class",
+        "props": Object {
+          "item": Object {
+            "description": "fourth movie description",
+            "id": 4,
+            "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
+            "title": "fourth movie",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ListCard
+            item={
+              Object {
+                "description": "first movie description",
+                "id": 1,
+                "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
+                "title": "first movie",
+              }
+            }
+          />,
+          <ListCard
+            item={
+              Object {
+                "description": "second movie description",
+                "id": 2,
+                "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
+                "title": "second movie",
+              }
+            }
+          />,
+          <ListCard
+            item={
+              Object {
+                "description": "third movie description",
+                "id": 3,
+                "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
+                "title": "third movie",
+              }
+            }
+          />,
+          <ListCard
+            item={
+              Object {
+                "description": "fourth movie description",
+                "id": 4,
+                "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
+                "title": "fourth movie",
+              }
+            }
+          />,
+        ],
+        "className": "results-list",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "class",
+          "props": Object {
+            "item": Object {
+              "description": "first movie description",
+              "id": 1,
+              "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
+              "title": "first movie",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "class",
+          "props": Object {
+            "item": Object {
+              "description": "second movie description",
+              "id": 2,
+              "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
+              "title": "second movie",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "class",
+          "props": Object {
+            "item": Object {
+              "description": "third movie description",
+              "id": 3,
+              "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
+              "title": "third movie",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "4",
+          "nodeType": "class",
+          "props": Object {
+            "item": Object {
+              "description": "fourth movie description",
+              "id": 4,
+              "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
+              "title": "fourth movie",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`Main snapshot check snaphot without props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Main />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": null,
+      "className": "results-list",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": null,
+        "className": "results-list",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
