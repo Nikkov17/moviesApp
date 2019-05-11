@@ -1,11 +1,10 @@
 import React from 'react';
-import './input.css';
 import PropTypes from 'prop-types';
+import './input.css';
 
 class Input extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
     this.inputRef = React.createRef();
 
     this.onFormSubmit = this.onFormSubmit.bind(this);
@@ -16,19 +15,17 @@ class Input extends React.Component {
 
     let { inputRef } = this;
     let { value } = inputRef.current;
-    let { getMoviesList } = this.props;
+    let { updateMoviesList } = this.props;
 
-    getMoviesList([{
-      title: 'this is components feedback check',
-      description: `value from input: ${value}`
-    }]);
+    updateMoviesList(value);
   }
 
   render() {
     return (
       <div className="input-container">
         <form className="input-container-wrapper" onSubmit={this.onFormSubmit}>
-          <label className="input-label" htmlFor="titleInput">Find your movie
+          <label className="input-label" htmlFor="titleInput">
+            Find your movie
             <input className="input" id="titleInput" type="text" ref={this.inputRef} />
           </label>
           <button className="submit-button" type="submit">Submit</button>
@@ -39,7 +36,7 @@ class Input extends React.Component {
 }
 
 Input.propTypes = {
-  getMoviesList: PropTypes.func
+  updateMoviesList: PropTypes.func
 };
 
 export default Input;

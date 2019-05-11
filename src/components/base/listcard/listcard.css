@@ -2,6 +2,7 @@
   background-color: #eff0f0;
   width: 40%;
   margin-top: 20px;
+  cursor: pointer;
 }
 @media screen and (max-width: 1025px) {
   .card {

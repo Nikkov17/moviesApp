@@ -27,11 +27,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <img
-          alt="movie poster"
-          className="img"
-          src="check img"
-        />,
+        null,
         <p
           className="card-text movie-title"
         >
@@ -39,27 +35,13 @@ ShallowWrapper {
         </p>,
         <p
           className="card-text movie-description"
-        >
-          check description
-        </p>,
+        />,
       ],
       "className": "card",
     },
     "ref": null,
     "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "alt": "movie poster",
-          "className": "img",
-          "src": "check img",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "img",
-      },
+      null,
       Object {
         "instance": null,
         "key": undefined,
@@ -77,11 +59,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "check description",
+          "children": undefined,
           "className": "card-text movie-description",
         },
         "ref": null,
-        "rendered": "check description",
+        "rendered": null,
         "type": "p",
       },
     ],
@@ -94,11 +76,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <img
-            alt="movie poster"
-            className="img"
-            src="check img"
-          />,
+          null,
           <p
             className="card-text movie-title"
           >
@@ -106,27 +84,13 @@ ShallowWrapper {
           </p>,
           <p
             className="card-text movie-description"
-          >
-            check description
-          </p>,
+          />,
         ],
         "className": "card",
       },
       "ref": null,
       "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "alt": "movie poster",
-            "className": "img",
-            "src": "check img",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "img",
-        },
+        null,
         Object {
           "instance": null,
           "key": undefined,
@@ -144,11 +108,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "check description",
+            "children": undefined,
             "className": "card-text movie-description",
           },
           "ref": null,
-          "rendered": "check description",
+          "rendered": null,
           "type": "p",
         },
       ],

@@ -4,7 +4,7 @@ exports[`input snapshot check snaphot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Input
-    getMoviesList={[Function]}
+    updateMoviesList={[Function]}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],

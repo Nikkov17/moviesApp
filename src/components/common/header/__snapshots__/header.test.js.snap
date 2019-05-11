@@ -24,7 +24,7 @@ ShallowWrapper {
         >
           Enter movie title
         </h1>,
-        <Input />,
+        <UNDEFINED />,
       ],
     },
     "ref": null,
@@ -44,13 +44,18 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "getMoviesList": undefined,
-        },
+        "nodeType": "function",
+        "props": Object {},
         "ref": null,
         "rendered": null,
-        "type": [Function],
+        "type": Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(InputContainer)",
+          "type": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        },
       },
     ],
     "type": Symbol(react.fragment),
@@ -67,7 +72,7 @@ ShallowWrapper {
           >
             Enter movie title
           </h1>,
-          <Input />,
+          <UNDEFINED />,
         ],
       },
       "ref": null,
@@ -87,13 +92,18 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "getMoviesList": undefined,
-          },
+          "nodeType": "function",
+          "props": Object {},
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(InputContainer)",
+            "type": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
       ],
       "type": Symbol(react.fragment),

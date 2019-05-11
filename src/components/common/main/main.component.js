@@ -9,14 +9,15 @@ class Main extends React.Component {
 
     return (
       <ul className="results-list">
-        {moviesList ? moviesList.map((item) => <ListCard key={item.id} item={item} />) : null}
+        {moviesList && moviesList.data
+          ? moviesList.data.map((item) => <ListCard key={item.id} item={item} />) : null}
       </ul>
     );
   }
 }
 
 Main.propTypes = {
-  moviesList: PropTypes.array
+  moviesList: PropTypes.object
 };
 
 export default Main;

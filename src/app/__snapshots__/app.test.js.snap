@@ -22,43 +22,12 @@ ShallowWrapper {
         <header
           className="header"
         >
-          <Header
-            getMoviesList={[Function]}
-          />
+          <Header />
         </header>,
         <div
           className="main"
         >
-          <Main
-            moviesList={
-              Array [
-                Object {
-                  "description": "first movie description",
-                  "id": 1,
-                  "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
-                  "title": "first movie",
-                },
-                Object {
-                  "description": "second movie description",
-                  "id": 2,
-                  "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
-                  "title": "second movie",
-                },
-                Object {
-                  "description": "third movie description",
-                  "id": 3,
-                  "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
-                  "title": "third movie",
-                },
-                Object {
-                  "description": "fourth movie description",
-                  "id": 4,
-                  "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
-                  "title": "fourth movie",
-                },
-              ]
-            }
-          />
+          <UNDEFINED />
         </div>,
       ],
     },
@@ -69,9 +38,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <Header
-            getMoviesList={[Function]}
-          />,
+          "children": <Header />,
           "className": "header",
         },
         "ref": null,
@@ -79,9 +46,7 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
-          "props": Object {
-            "getMoviesList": [Function],
-          },
+          "props": Object {},
           "ref": null,
           "rendered": null,
           "type": [Function],
@@ -93,74 +58,25 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <Main
-            moviesList={
-              Array [
-                Object {
-                  "description": "first movie description",
-                  "id": 1,
-                  "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
-                  "title": "first movie",
-                },
-                Object {
-                  "description": "second movie description",
-                  "id": 2,
-                  "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
-                  "title": "second movie",
-                },
-                Object {
-                  "description": "third movie description",
-                  "id": 3,
-                  "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
-                  "title": "third movie",
-                },
-                Object {
-                  "description": "fourth movie description",
-                  "id": 4,
-                  "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
-                  "title": "fourth movie",
-                },
-              ]
-            }
-          />,
+          "children": <UNDEFINED />,
           "className": "main",
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "moviesList": Array [
-              Object {
-                "description": "first movie description",
-                "id": 1,
-                "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
-                "title": "first movie",
-              },
-              Object {
-                "description": "second movie description",
-                "id": 2,
-                "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
-                "title": "second movie",
-              },
-              Object {
-                "description": "third movie description",
-                "id": 3,
-                "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
-                "title": "third movie",
-              },
-              Object {
-                "description": "fourth movie description",
-                "id": 4,
-                "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
-                "title": "fourth movie",
-              },
-            ],
-          },
+          "nodeType": "function",
+          "props": Object {},
           "ref": null,
           "rendered": null,
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(MainContainer)",
+            "type": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          },
         },
         "type": "div",
       },
@@ -177,43 +93,12 @@ ShallowWrapper {
           <header
             className="header"
           >
-            <Header
-              getMoviesList={[Function]}
-            />
+            <Header />
           </header>,
           <div
             className="main"
           >
-            <Main
-              moviesList={
-                Array [
-                  Object {
-                    "description": "first movie description",
-                    "id": 1,
-                    "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
-                    "title": "first movie",
-                  },
-                  Object {
-                    "description": "second movie description",
-                    "id": 2,
-                    "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
-                    "title": "second movie",
-                  },
-                  Object {
-                    "description": "third movie description",
-                    "id": 3,
-                    "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
-                    "title": "third movie",
-                  },
-                  Object {
-                    "description": "fourth movie description",
-                    "id": 4,
-                    "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
-                    "title": "fourth movie",
-                  },
-                ]
-              }
-            />
+            <UNDEFINED />
           </div>,
         ],
       },
@@ -224,9 +109,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <Header
-              getMoviesList={[Function]}
-            />,
+            "children": <Header />,
             "className": "header",
           },
           "ref": null,
@@ -234,9 +117,7 @@ ShallowWrapper {
             "instance": null,
             "key": undefined,
             "nodeType": "class",
-            "props": Object {
-              "getMoviesList": [Function],
-            },
+            "props": Object {},
             "ref": null,
             "rendered": null,
             "type": [Function],
@@ -248,74 +129,25 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <Main
-              moviesList={
-                Array [
-                  Object {
-                    "description": "first movie description",
-                    "id": 1,
-                    "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
-                    "title": "first movie",
-                  },
-                  Object {
-                    "description": "second movie description",
-                    "id": 2,
-                    "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
-                    "title": "second movie",
-                  },
-                  Object {
-                    "description": "third movie description",
-                    "id": 3,
-                    "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
-                    "title": "third movie",
-                  },
-                  Object {
-                    "description": "fourth movie description",
-                    "id": 4,
-                    "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
-                    "title": "fourth movie",
-                  },
-                ]
-              }
-            />,
+            "children": <UNDEFINED />,
             "className": "main",
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "moviesList": Array [
-                Object {
-                  "description": "first movie description",
-                  "id": 1,
-                  "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
-                  "title": "first movie",
-                },
-                Object {
-                  "description": "second movie description",
-                  "id": 2,
-                  "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
-                  "title": "second movie",
-                },
-                Object {
-                  "description": "third movie description",
-                  "id": 3,
-                  "img": "https://cdn3.movieweb.com/i/movie/gEh4g0Db8qqSuAVOoGuEqYp9XRTdR2/384:50/Shazam.jpg",
-                  "title": "third movie",
-                },
-                Object {
-                  "description": "fourth movie description",
-                  "id": 4,
-                  "img": "https://m.media-amazon.com/images/M/MV5BMjQ0NDkyOTg2OF5BMl5BanBnXkFtZTgwMzk4NzcwOTE@._V1_CR0,59,640,360_AL_UX477_CR0,0,477,268_AL_.jpg",
-                  "title": "fourth movie",
-                },
-              ],
-            },
+            "nodeType": "function",
+            "props": Object {},
             "ref": null,
             "rendered": null,
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.memo),
+              "WrappedComponent": [Function],
+              "compare": null,
+              "displayName": "Connect(MainContainer)",
+              "type": [Function],
+              Symbol(Symbol.hasInstance): [Function],
+            },
           },
           "type": "div",
         },
