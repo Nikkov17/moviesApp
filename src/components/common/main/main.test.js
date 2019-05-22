@@ -9,13 +9,25 @@ describe('Main', () => {
   });
 
   describe('snapshot', () => {
-    it('check snaphot with props', () => {
-      const component = shallow(<Main moviesList={{}} />);
+    it('check snaphot with history', () => {
+      const history = {
+        location: {
+          pathname: 'qwe=qwe'
+        }
+      };
+      const component = shallow(<Main updateMoviesList={jest.fn()} moviesList={{}} history={history} />);
       expect(component).toMatchSnapshot();
     });
 
-    it('check snaphot without props', () => {
-      const component = shallow(<Main />);
+    it('check snaphot without history', () => {
+      const history = {
+        location: {
+          pathname: 'qwe=qwe'
+        }
+      };
+      const component = shallow(
+        <Main updateMoviesList={jest.fn()} history={history} moviesList={{}} />
+      );
       expect(component).toMatchSnapshot();
     });
   });

@@ -1,10 +1,43 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Main snapshot check snaphot with props 1`] = `
+exports[`Main snapshot check snaphot with history 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Main
+    history={
+      Object {
+        "location": Object {
+          "pathname": "qwe=qwe",
+        },
+      }
+    }
     moviesList={Object {}}
+    updateMoviesList={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            URLSearchParams {
+              Symbol(impl): URLSearchParamsImpl {
+                "_list": Array [
+                  Array [
+                    "search",
+                    "qwe",
+                  ],
+                ],
+                "_url": null,
+                Symbol(wrapper): [Circular],
+              },
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -18,27 +51,145 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "class",
     "props": Object {
-      "children": null,
-      "className": "results-list",
+      "children": Array [
+        <Route
+          exact={true}
+          path={
+            Array [
+              "/",
+              "/search/search=:request",
+            ]
+          }
+          render={[Function]}
+        />,
+        <Route
+          exact={true}
+          path="/movie/:id"
+          render={[Function]}
+        />,
+        <Route
+          component={[Function]}
+        />,
+      ],
     },
     "ref": null,
-    "rendered": null,
-    "type": "ul",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "exact": true,
+          "path": Array [
+            "/",
+            "/search/search=:request",
+          ],
+          "render": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "exact": true,
+          "path": "/movie/:id",
+          "render": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "class",
       "props": Object {
-        "children": null,
-        "className": "results-list",
+        "children": Array [
+          <Route
+            exact={true}
+            path={
+              Array [
+                "/",
+                "/search/search=:request",
+              ]
+            }
+            render={[Function]}
+          />,
+          <Route
+            exact={true}
+            path="/movie/:id"
+            render={[Function]}
+          />,
+          <Route
+            component={[Function]}
+          />,
+        ],
       },
       "ref": null,
-      "rendered": null,
-      "type": "ul",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "exact": true,
+            "path": Array [
+              "/",
+              "/search/search=:request",
+            ],
+            "render": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "exact": true,
+            "path": "/movie/:id",
+            "render": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -69,10 +220,45 @@ ShallowWrapper {
 }
 `;
 
-exports[`Main snapshot check snaphot without props 1`] = `
+exports[`Main snapshot check snaphot without history 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Main />,
+  Symbol(enzyme.__unrendered__): <Main
+    history={
+      Object {
+        "location": Object {
+          "pathname": "qwe=qwe",
+        },
+      }
+    }
+    moviesList={Object {}}
+    updateMoviesList={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            URLSearchParams {
+              Symbol(impl): URLSearchParamsImpl {
+                "_list": Array [
+                  Array [
+                    "search",
+                    "qwe",
+                  ],
+                ],
+                "_url": null,
+                Symbol(wrapper): [Circular],
+              },
+            },
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -85,27 +271,145 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "class",
     "props": Object {
-      "children": null,
-      "className": "results-list",
+      "children": Array [
+        <Route
+          exact={true}
+          path={
+            Array [
+              "/",
+              "/search/search=:request",
+            ]
+          }
+          render={[Function]}
+        />,
+        <Route
+          exact={true}
+          path="/movie/:id"
+          render={[Function]}
+        />,
+        <Route
+          component={[Function]}
+        />,
+      ],
     },
     "ref": null,
-    "rendered": null,
-    "type": "ul",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "exact": true,
+          "path": Array [
+            "/",
+            "/search/search=:request",
+          ],
+          "render": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "exact": true,
+          "path": "/movie/:id",
+          "render": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "component": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "class",
       "props": Object {
-        "children": null,
-        "className": "results-list",
+        "children": Array [
+          <Route
+            exact={true}
+            path={
+              Array [
+                "/",
+                "/search/search=:request",
+              ]
+            }
+            render={[Function]}
+          />,
+          <Route
+            exact={true}
+            path="/movie/:id"
+            render={[Function]}
+          />,
+          <Route
+            component={[Function]}
+          />,
+        ],
       },
       "ref": null,
-      "rendered": null,
-      "type": "ul",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "exact": true,
+            "path": Array [
+              "/",
+              "/search/search=:request",
+            ],
+            "render": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "exact": true,
+            "path": "/movie/:id",
+            "render": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {

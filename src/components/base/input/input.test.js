@@ -3,6 +3,10 @@ import Adapter from 'enzyme-adapter-react-16';
 import { configure, shallow } from 'enzyme';
 import Input from './input.component';
 
+const history = {
+  push: jest.fn()
+};
+
 describe('input', () => {
   beforeEach(() => {
     configure({ adapter: new Adapter() });
@@ -11,7 +15,7 @@ describe('input', () => {
   describe('onFormSubmit', () => {
     it('should call updateMoviesList', () => {
       const component = shallow(
-        <Input updateMoviesList={jest.fn()} />
+        <Input updateMoviesList={jest.fn()} history={history} />
       );
       const instance = component.instance();
 
@@ -21,21 +25,22 @@ describe('input', () => {
           value: 'check'
         }
       };
+      const searchUrlParams = new URLSearchParams();
+      searchUrlParams.set('search', 'check');
 
       component.find('.input-container-wrapper').simulate('submit', {
         preventDefault: jest.fn()
       });
 
-      expect(instance.props.updateMoviesList).toHaveBeenCalledWith('check');
+      expect(instance.props.updateMoviesList).toHaveBeenCalledWith(searchUrlParams);
     });
   });
 
   describe('snapshot', () => {
     it('check snaphot', () => {
-      const component = shallow(<Input updateMoviesList={() => {
-        return true;
-      }}
-      />);
+      const component = shallow(
+        <Input updateMoviesList={jest.fn()} history={history} />
+      );
       expect(component).toMatchSnapshot();
     });
   });

@@ -6,7 +6,7 @@ describe('movieslist', () => {
       expect(moviesListReducer({}, {
         type: 'UPDATE_MOVIES_LIST',
         list: [1, 2]
-      })).toEqual([1, 2]);
+      })).toEqual({ list: [1, 2] });
     });
 
     it('action return state', () => {
