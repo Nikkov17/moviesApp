@@ -1,1 +1,1 @@
-# moviesApp
+npm run start
