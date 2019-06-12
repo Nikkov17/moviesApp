@@ -5,7 +5,7 @@ import App from './app/app';
 import './index.css';
 import store from './state/state';
 
-ReactDOM.render(
+ReactDOM.hydrate(
   <Provider store={store}>
     <App />
   </Provider>, document.getElementById('root')

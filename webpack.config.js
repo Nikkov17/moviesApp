@@ -1,40 +1,68 @@
-const path = require("path");
 const webpack = require("webpack");
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
-module.exports = {
-	entry: "./src/index.js",
-	mode: "development",
-	module: {
-		rules: [
-			{
-				test: /\.(js|jsx)$/,
-				exclude: /(node_modules|bower_components)/,
-				loader: "babel-loader",
-				options: { presets: ["@babel/env"] }
-			},
-			{
-				test: /\.css$/,
-				use: ["style-loader", "css-loader"]
-			},
-			{
-				test: /\.json$/,
-				loader: 'json-loader'
+const browserConfig = {
+  entry: "./src/index.js",
+  output: {
+    path: __dirname,
+    filename: "./dist/bundle.js"
+  },
+  devtool: "cheap-module-source-map",
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ExtractTextPlugin.extract({
+          use: [
+            {
+              loader: "css-loader",
+              options: { importLoaders: 1 }
 			}
-		]
-	},
-	resolve: { extensions: ["*", ".js", ".jsx"] },
-	output: {
-		path: path.resolve(__dirname, "dist/"),
-		publicPath: "/dist/",
-		filename: "bundle.js"
-	},
-	devServer: {
-		historyApiFallback: true,
-		contentBase: path.join(__dirname, "public/"),
-		port: 3000,
-		watchContentBase: true,
-		publicPath: "http://localhost:3000/dist/",
-		hotOnly: true
-	},
-	plugins: [new webpack.HotModuleReplacementPlugin()]
+          ]
+        })
+      },
+      {
+        test: /js$/,
+        exclude: /(node_modules)/,
+        loader: "babel-loader",
+        query: { presets: ["react-app"] }
+      }
+    ]
+  },
+  plugins: [
+    new ExtractTextPlugin({
+      filename: "dist/[name].css"
+    })
+  ]
 };
+
+const serverConfig = {
+  entry: "./server/server.js",
+  target: "node",
+  output: {
+    path: __dirname,
+    filename: "server.js",
+    libraryTarget: "commonjs2"
+  },
+  devtool: "cheap-module-source-map",
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: [
+          {
+            loader: "css-loader/locals"
+          }
+        ]
+      },
+      {
+        test: /js$/,
+        exclude: /(node_modules)/,
+        loader: "babel-loader",
+        query: { presets: ["react-app"] }
+      }
+    ]
+  }
+};
+
+module.exports = [browserConfig, serverConfig];
